@@ -135,3 +135,136 @@ ul li a {
     color: #575757;
     padding-bottom: 24px;
 }
+
+/* ********* Spot Section ********* */
+.spot_container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0D1B2A;
+    margin-top: 137px;
+    text-align: center;
+}
+
+.spot_subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #575757;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.spot_section {
+    margin-top: 48px;
+}
+
+.spot_card {
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 370px;
+}
+
+.spot_plan {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    color: #888888;
+    padding: 32px 0 0 32px;
+    text-transform: uppercase;
+}
+
+.spot_card h2 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+    padding: 8px 0 0 32px;
+    color: #0D1B2A;
+}
+
+.spot_person {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 4px 0 20px 32px;
+    color: #888888;
+    /* border-bottom: 1px solid #E5E7EB; */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #E5E7EB;
+    margin: 0 32px;
+}
+
+.spot_section {
+    display: flex;
+    gap: 24px;
+    margin: 48px 80px 0 80px;
+}
+
+.spot_features {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    padding: 20px 0 0 51px;
+}
+
+.spot_features li::marker {
+    color: #2563EB;
+}
+
+.spot_btn {
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #2563EB;
+    background-color: white;
+    border: 1px solid #2563EB;
+    margin: 20px 32px 32px 32px;
+    padding: 11px 106px 11px 106px;
+}
+
+.spot_card2 {
+    background-color: #0D1B2A;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 370px;
+}
+
+.spot_plan2 {
+    color: white;
+}
+
+.spot_card2 h2 {
+    color: white;
+}
+
+.spot_card2 hr {
+    background: #FFFFFF10;
+}
+
+.spot_features2 {
+    color: white;
+}
+
+.spot_btn2 {
+    color: white;
+    background-color: #2563EB;
+    padding: 11px 125px 11px 125px;
+}
+
+.spot_card3 {
+    background-color: #E5E7EB70;
+}
+
+.spot_btn3 {
+    color: #0D1B2A;
+    background-color: #E5E7EB70;
+    border: 1px solid #0D1B2A;
+}

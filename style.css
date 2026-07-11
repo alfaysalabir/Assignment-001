@@ -45,3 +45,36 @@ ul li a {
     color: #575757;
 }
 
+/* ********* Banner Section ********* */
+.banner_section {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%) , url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner_content h1 {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -3.2px;
+    padding: 136px 0 16px 0;
+}
+.banner_content p {
+    font-size: 22px;
+    line-height: 24px;
+    width: 829px;
+    margin-bottom: 278px;
+}
+.banner_btn {
+    padding: 25px 63px;
+    margin-bottom: 79px;
+    font-size: 24px;
+}

@@ -388,6 +388,7 @@ hr {
     gap: 24px;
     font-size: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .footer_section hr {

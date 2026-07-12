@@ -383,10 +383,6 @@ hr {
     padding: 56px 0 28px 0;
 }
 
-.footer_top img {
-    background-color: #5a5e63;
-}
-
 .footer_social {
     display: flex;
     gap: 24px;
